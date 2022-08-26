@@ -13,7 +13,7 @@ export default function Test() {
           </span>
         </div>
         <div>
-          <a href="http://wa.me/989100037160" target="_blank">
+          <a href="http://wa.me/989100037160" target="_blank" rel="noreferrer">
             <svg
               className="laptop:p-auto  cursor-pointer p-10"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function Test() {
               <defs></defs>
               <title>pink-mail</title>
               <path
-                class="cls-1"
+                className="cls-1"
                 d="M3.8,0,62.48,47.85,118.65,0ZM0,80.52,41.8,38.61,0,4.53v76ZM46.41,42.37,3.31,85.57h115.9L78,42.37,64.45,53.94h0a3,3,0,0,1-3.79.05L46.41,42.37Zm36.12-3.84,40.35,42.33V4.16L82.53,38.53Z"
               />
             </svg>

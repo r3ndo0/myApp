@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const variant = {
   animate: { x: 0 },
@@ -30,19 +31,19 @@ export default function Hero() {
             I <span className="text-rose-700 font-extrabold ">Love </span>
             Building Web Apps ~
           </h3>
-          <a href="/otherapps" target="_blank">
+          <Link href="/otherapps" target="_blank">
             <motion.button
               whileTap={{ scale: 1.1 }}
               className="bg-rose-700  text-gray-300 font-extrabold hover:bg-rose-600 mt-10 mx-5 rounded-md px-10 py-4  z-2 "
             >
               Unsplash API App
             </motion.button>
-          </a>
+          </Link>
           <motion.button
             whileTap={{ scale: 1.1 }}
             className="bg-gray-300 hover:bg-gray-100  font-extrabold text-gray-900 mt-10  rounded-md px-10 py-4  z-2 "
           >
-            <a href="/weatherapp">Weather App</a>
+            <Link href="/weatherapp">Weather App</Link>
           </motion.button>
         </div>
       </motion.div>

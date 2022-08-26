@@ -5,7 +5,7 @@ export default function Images({ id, urls, user, created_at, likes }) {
     <>
       <div className="p-5 rounded-3xl shadow-md bg-gray-300">
         <article key={id} className="rounded-3xl">
-          <a href={urls.full} target="_blank">
+          <a href={urls.full} target="_blank" rel="noreferrer">
             <img
               src={urls.regular}
               alt={user.username}
