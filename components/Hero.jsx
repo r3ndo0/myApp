@@ -88,7 +88,7 @@ export default function Hero() {
           <h1>LinkedIn</h1>
         </motion.a>
         <motion.a
-          href="https://twitter.com/r3ndo02"
+          href="https://twitter.com"
           target="_blank"
           animate={{ x: 0 }}
           initial={{ x: 500 }}
