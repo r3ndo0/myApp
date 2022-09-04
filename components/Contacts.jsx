@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Test() {
   return (
     <div
@@ -13,7 +15,11 @@ export default function Test() {
           </span>
         </div>
         <div>
-          <a href="http://wa.me/989100037160" target="_blank" rel="noreferrer">
+          <Link
+            href="http://wa.me/989100037160"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg
               className="laptop:p-auto  cursor-pointer p-10"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +46,12 @@ export default function Test() {
                 />
               </g>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="bg-gray-900 ml-[3px]  flex justify-center items-center">
         <div className="ml-12 max-w-fit  cursor-pointer	">
-          <a href="mailto:r3ndo0@gmail.com">
+          <Link href="mailto:r3ndo0@gmail.com">
             <svg
               fill="#60a5fa"
               height="auto"
@@ -62,7 +68,7 @@ export default function Test() {
                 d="M3.8,0,62.48,47.85,118.65,0ZM0,80.52,41.8,38.61,0,4.53v76ZM46.41,42.37,3.31,85.57h115.9L78,42.37,64.45,53.94h0a3,3,0,0,1-3.79.05L46.41,42.37Zm36.12-3.84,40.35,42.33V4.16L82.53,38.53Z"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         <div className="laptop:text-4xl text-xl font-extrabold text-gray-200 m-12">
           Email Address

@@ -21,15 +21,15 @@ export default function Nav() {
           initial={{ x: -200 }}
           transition={{ type: "spring", stiffness: 100 }}
         >
-          <a href="/" className=" text-4xl flex space-x-5  ">
+          <div className=" text-4xl flex space-x-5  ">
             <motion.div
               animate={{ rotateZ: 360 }}
               transition={{ repeat: Infinity, type: "spring", stiffness: 50 }}
             >
               <TbBrandReactNative className=" text-5xl text-blue-500" />
             </motion.div>
-            <h1>r3ndo0</h1>
-          </a>
+            <Link href="/">r3ndo0</Link>
+          </div>
         </motion.div>
 
         {/* <--------Primary Navbar---------> */}
@@ -41,27 +41,24 @@ export default function Nav() {
           transition={{ type: "spring", stiffness: 100 }}
         >
           <Link href="/">
-            <a className="m-3  p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded">
+            <div className="m-3  p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded">
               Home
-            </a>
+            </div>
           </Link>
           <Link href="/otherapps">
-            <a className="m-3 p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded">
+            <div className="m-3 p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded">
               Unsplash API App
-            </a>
+            </div>
           </Link>
-          <a
-            href="/weatherapp"
-            className="m-3  p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded"
-          >
-            Weather App
-          </a>
-          <a
+          <div className="m-3  p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded">
+            <Link href="/weatherapp">Weather App</Link>
+          </div>
+          <div
             href="#contacts"
             className="m-3 p-4 font-bold text-white rounded cursor-pointer hover:bg-rose-500 bg-rose-700"
           >
             Contact Info
-          </a>
+          </div>
         </motion.div>
       </div>
       {/* <--------Secondary Navbar---------> */}
@@ -74,7 +71,7 @@ export default function Nav() {
         <div className=" flex-row justify-between bg-gray-900">
           <div className="flex justify-between text-white font-extrabold">
             <Link href="/">
-              <a className=" text-4xl items-center flex m-5 space-x-5 text-rose-600 ">
+              <div className=" text-4xl items-center flex m-5 space-x-5 text-rose-600 ">
                 <motion.div
                   className="m-0  text-blue-500 p-0"
                   animate={{ rotateZ: 360 }}
@@ -87,7 +84,7 @@ export default function Nav() {
                   <TbBrandReactNative className="text-5xl" />
                 </motion.div>
                 <h1>r3ndo0</h1>
-              </a>
+              </div>
             </Link>
             <button
               className=" text-6xl p-5 m-25 text-rose-600	"
@@ -106,16 +103,16 @@ export default function Nav() {
           }
           layout
         >
-          <a className="p-5 m-5 cursor-pointer font-extrabold  ">
+          <div className="p-5 m-5 cursor-pointer font-extrabold  ">
             Contact Info
-          </a>
+          </div>
           <Link href="/otherapps">
-            <a className="p-5 m-5 font-extrabold ">Unsplash API App</a>
+            <div className="p-5 m-5 font-extrabold ">Unsplash API App</div>
           </Link>
-          <a href="/weatherapp" className="p-5 m-5  font-extrabold ">
+          <div href="/weatherapp" className="p-5 m-5  font-extrabold ">
             Weather App
-          </a>
-          <a className="p-5 m-5  font-extrabold ">Contact</a>
+          </div>
+          <div className="p-5 m-5  font-extrabold ">Contact</div>
         </motion.div>
       </motion.div>
     </>

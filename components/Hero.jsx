@@ -54,7 +54,7 @@ export default function Hero() {
         initial={"initial"}
         transition={"transition"}
       >
-        <motion.a
+        <motion.div
           href="https://www.instagram.com/r3ndo0"
           target="_blank"
           animate={{ x: 0 }}
@@ -69,8 +69,8 @@ export default function Hero() {
             height="144px"
           />
           <h1>Instagram</h1>
-        </motion.a>
-        <motion.a
+        </motion.div>
+        <motion.div
           href="https://www.linkedin.com/in/r3ndo0
         "
           target="_blank"
@@ -86,8 +86,8 @@ export default function Hero() {
             height="144px"
           />
           <h1>LinkedIn</h1>
-        </motion.a>
-        <motion.a
+        </motion.div>
+        <motion.div
           href="https://twitter.com"
           target="_blank"
           animate={{ x: 0 }}
@@ -102,8 +102,8 @@ export default function Hero() {
             height="144px"
           />
           <h1>Twitter</h1>
-        </motion.a>
-        <motion.a
+        </motion.div>
+        <motion.div
           href="https://t.me/r3ndo0"
           target="_blank"
           animate={{ x: 0 }}
@@ -118,7 +118,7 @@ export default function Hero() {
             height="144px"
           />
           <h1>Telegram</h1>
-        </motion.a>
+        </motion.div>
       </motion.div>
     </div>
   );
