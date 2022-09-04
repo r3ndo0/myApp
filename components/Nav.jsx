@@ -53,11 +53,8 @@ export default function Nav() {
           <div className="m-3  p-4 px-8 hover:text-zinc-300 cursor-pointer hover:rounded">
             <Link href="/weatherapp">Weather App</Link>
           </div>
-          <div
-            href="#contacts"
-            className="m-3 p-4 font-bold text-white rounded cursor-pointer hover:bg-rose-500 bg-rose-700"
-          >
-            Contact Info
+          <div className="m-3 p-4 font-bold text-white rounded cursor-pointer hover:bg-rose-500 bg-rose-700">
+            <Link href="#contacts">Contact Info</Link>
           </div>
         </motion.div>
       </div>
