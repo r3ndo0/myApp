@@ -71,7 +71,7 @@ export default function Hero() {
           <h1>Instagram</h1>
         </motion.a>
         <motion.a
-          href="https://www.linkedin.com/in/r3ndo0
+          href="https://www.github.com/r3ndo0
         "
           target="_blank"
           animate={{ x: 0 }}
@@ -81,11 +81,11 @@ export default function Hero() {
         >
           <Image
             className="cursor-pointer"
-            src="/linkedin.png"
+            src="/github.png"
             width="144px"
             height="144px"
           />
-          <h1>LinkedIn</h1>
+          <h1>Github</h1>
         </motion.a>
         <motion.a
           href="https://twitter.com/r3ndo0"
