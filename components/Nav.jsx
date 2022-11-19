@@ -54,7 +54,7 @@ export default function Nav() {
             <Link href="/weatherapp">Weather App</Link>
           </div>
           <div className="m-3 p-4 font-bold text-white rounded cursor-pointer hover:bg-rose-500 bg-rose-700">
-            <Link href="#contacts">Contact Info</Link>
+            <Link href="/aboutme">About Me</Link>
           </div>
         </motion.div>
       </div>
@@ -101,7 +101,7 @@ export default function Nav() {
           layout
         >
           <div className="p-5 m-5 cursor-pointer font-extrabold  ">
-            Contact Info
+            <Link href="/aboutme">About Me</Link>
           </div>
           <Link href="/otherapps">
             <div className="p-5 m-5 font-extrabold ">Unsplash API App</div>
