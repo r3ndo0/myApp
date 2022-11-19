@@ -15,19 +15,19 @@ const variant1 = {
 
 export default function Hero() {
   return (
-    <div className="h-screen flex justify-center bg-rose-700 w-auto ">
+    <div className="h-auto laptop:h-screen grid grid-cols-1 laptop:grid-cols-2 bg-rose-700 w-auto ">
       <motion.div
-        className="laptop:w-1/2 laptop:mr-1 w-full  bg-gray-900"
+        className="h-[1000px] laptop:h-screen laptop:mr-1 w-full  bg-gray-900"
         variants={variant1}
         animate={"animate"}
         initial={"initial"}
         transition={"transition"}
       >
         <div className=" pt-72">
-          <h1 className="text-gray-200 py-1 px-10 font-extrabold text-5xl">
+          <h1 className="text-blue-200 py-1 px-10 font-extrabold text-5xl">
             In Search For Greatness
           </h1>
-          <h3 className="text-gray-200 mb-5 p-7 text-3xl">
+          <h3 className="text-blue-200 mb-5 p-7 text-3xl">
             I <span className="text-rose-700 font-extrabold ">Love </span>
             Building Web Apps ~
           </h3>
@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
       </motion.div>
       <motion.div
-        className=" w-1/2 hidden pt-16 laptop:grid text-4xl grid-cols-2 bg-gray-100 gap-2 	"
+        className="h-screen w-full pt-16 grid text-4xl grid-cols-2 bg-gray-100 gap-2 	"
         variants={variant}
         animate={"animate"}
         initial={"initial"}
